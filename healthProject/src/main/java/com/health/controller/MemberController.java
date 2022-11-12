@@ -24,7 +24,7 @@ public class MemberController {
 	
 	//회원가입
 	@RequestMapping("/join")
-	public void join() {
+	public void join() { 
 		
 	}
 	

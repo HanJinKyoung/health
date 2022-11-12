@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import com.health.dao.HealthUseDAO;
 import com.health.domain.HealthUseVO;
 
-import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j; 
 
 @Service("healthUseService")
 @Log4j

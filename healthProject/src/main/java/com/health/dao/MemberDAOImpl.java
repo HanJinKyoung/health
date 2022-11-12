@@ -34,7 +34,7 @@ public class MemberDAOImpl implements MemberDAO{
 			if(vo.getId().equals(id)) {
 				if(vo.getPassword().equals(pw)) {
 					log.info("로그인 성공");
-					result = 1;
+					result = 1; 
 				} else {
 					log.info("로그인 실패(패스워드)");
 				}

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class HealthUseVO {
-
+ 
 	private int healthUseNo;	// 회원권 key
 	private String name;		// 회원권명
 	private String startDate;	// 시작일

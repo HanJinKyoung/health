@@ -54,7 +54,7 @@
 			<div style="align-content:center;">
 			<input type="button" class="w3-btn w3-blue-grey" onclick="submit()" value="회원 가입"></button>
 			<input type="button" class="w3-btn w3-blue-grey" value="취소"></button>
-			</div>
+			</div> 
 		</form>
 		</div>
 	</div>

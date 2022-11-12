@@ -27,7 +27,7 @@ public class HealthUseController {
 	
 	@GetMapping("/healthusebuy")
 	public void buy() {
-		
+		  
 	}
 	
 	@PostMapping("/create")

@@ -10,7 +10,7 @@ import com.health.domain.MemberVO;
 public class MemberServiceImpl implements MemberService{
 	
 	@Autowired
-	private MemberDAO dao;
+	private MemberDAO dao; 
 	
 	@Override
 	public int join(MemberVO vo) {

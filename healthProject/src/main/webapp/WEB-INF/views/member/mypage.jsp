@@ -12,7 +12,7 @@
 	
 	<div id="join" class="w3-container">
 		
-		<div  class="w3-blue">
+		<div  class="w3-blue"> 
 			<h2>회원 정보</h2>
 		</div>
 		<div>

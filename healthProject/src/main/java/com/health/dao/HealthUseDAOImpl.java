@@ -13,7 +13,7 @@ public class HealthUseDAOImpl implements HealthUseDAO {
 	
 	@Override
 	public boolean insert(HealthUseVO vo) {
-		boolean result = false;
+		boolean result = false; 
 		
 		result = HDB.add(vo);
 		

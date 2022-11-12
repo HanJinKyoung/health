@@ -42,7 +42,7 @@ body {font-size:16px;}
 	    <a href="/member/join" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">회원가입</a> 
 	    <a href="/member/login" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">로그인</a> 
 	  </div>
-	</c:otherwise>
+	</c:otherwise>  
   </c:choose> 
  
 </nav>
