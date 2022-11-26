@@ -1,6 +1,7 @@
 package com.health.service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,7 +28,7 @@ public class ProgramServiceImpl implements ProgramService {
 	}
 
 	@Override
-	public ArrayList<HealthProVO> getList() {
+	public List<HealthProVO> getList() {
 		return pdao.selectAll();
 	}
 

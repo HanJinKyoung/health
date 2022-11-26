@@ -54,7 +54,7 @@ public class HealthUseController {
 			
 			log.info("선택한 이용권 : "+vo);
 			
-			if(hService.create(vo)) log.info("이용권 생성 성공");
+			if(hService.create(vo) > 0) log.info("이용권 생성 성공");
 			
 			HealthNo += 1;
 		} else {

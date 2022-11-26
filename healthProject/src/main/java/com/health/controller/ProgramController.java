@@ -1,6 +1,7 @@
 package com.health.controller;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -50,8 +51,7 @@ public class ProgramController {
 	//프로그램 리스트
 	@RequestMapping("/pList")
 	public void getList(Model model) {
-		//프로그램 정보를 저장할 공간... (db연결 전)
-		ArrayList<HealthProVO> list = pService.getList();
+		List<HealthProVO> list = pService.getList();
 		model.addAttribute("programList", list);
 	}
 	

@@ -2,7 +2,6 @@ package com.health.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,8 +81,10 @@ public class MemberDAOImpl implements MemberDAO{
 
 	@Override
 	public int selectCheck(String id) {
-		// TODO Auto-generated method stub
-		return 0;
+		int result = 0;
+		String sql = "select count(*) from member where id = ?";
+		result = jdbcTemplate.queryForObject(sql, Integer.class, id);
+		return result;
 	}
 
 }

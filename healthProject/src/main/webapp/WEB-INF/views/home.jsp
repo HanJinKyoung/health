@@ -31,8 +31,8 @@ body {font-size:16px;}
 	    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
 	    <a href="/member/mypage" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">마이페이지</a> 
 	    <a href="/member/logout" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">로그아웃</a> 
-	    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">수업 신청</a> 
-	    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">수업 신청 확인</a> 
+	    <a href="/register/regist" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">수업 신청</a> 
+	    <a href="/register/rlist" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">수업 신청 확인</a> 
 	    <a href="/health/healthusebuy" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">이용권 구매</a>
 	  </div>
 	</c:when>

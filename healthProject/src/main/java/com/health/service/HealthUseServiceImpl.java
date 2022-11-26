@@ -16,7 +16,7 @@ public class HealthUseServiceImpl implements HealthUseService {
 	private HealthUseDAO hdao;
 	
 	@Override
-	public boolean create(HealthUseVO hvo) {
+	public int create(HealthUseVO hvo) {
 		return hdao.insert(hvo);
 	}
 
@@ -28,6 +28,11 @@ public class HealthUseServiceImpl implements HealthUseService {
 	@Override
 	public boolean deprecated(int healthUseNo) {
 		return hdao.delete(healthUseNo);
+	}
+
+	@Override
+	public HealthUseVO userInfo(String userId) {
+		return hdao.selectOne(userId);
 	}
 
 }
